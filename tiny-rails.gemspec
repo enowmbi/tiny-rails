@@ -8,17 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Enow Mbi"]
   spec.email         = ["benowmbi@yahoo.com"]
 
-  spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Tiny Rails is a tiny version of Rails for educational / experimental purposes.Please do not use this version of Rails for production applications"
+  spec.description   = "Tiny Rails is a tiny version of Rails for educational / experimental purposes.This version of Rails contains implementation of the basic building blocks/components of Rails like ActiveRecord, ActiveSupport, ActionPack(ActionController, ActionDispatch) and ActionView. Test are written in Rspec"
+  spec.homepage      = "https://github.com/enowmbi/tiny-rails"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/enowmbi/tiny-rails"
+  spec.metadata["changelog_uri"] = "https://github.com/enowmbi/tiny-rails/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
